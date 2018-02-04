@@ -1,0 +1,18 @@
+config BR2_PACKAGE_LIBINDI_3RDPARTY
+	bool "3rd party drivers"
+	depends on BR2_PACKAGE_LIBINDI
+	select BR2_PACKAGE_LIBUSB
+	
+if BR2_PACKAGE_LIBINDI_3RDPARTY
+
+config BR2_PACKAGE_LIBINDI_INDI_EQMOD
+	bool "indi-eqmod"
+
+config BR2_PACKAGE_LIBINDI_INDI_ASI
+	bool "indi-asi"
+
+config BR2_PACKAGE_LIBINDI_INDI_SSAG
+	bool "indi-ssag"
+
+endif # BR2_PACKAGE_LIBINDI_3RDPARTY
+

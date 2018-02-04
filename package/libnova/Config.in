@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBNOVA
+	bool "libnova"
+	help
+		libnova is a general purpose, double precision, Celestial Mechanics, Astrometry and Astrodynamics library.

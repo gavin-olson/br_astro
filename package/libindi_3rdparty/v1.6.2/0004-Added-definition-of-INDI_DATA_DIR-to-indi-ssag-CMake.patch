@@ -1,0 +1,24 @@
+From 323a25594d9a6412252998df56a7037f5340ae47 Mon Sep 17 00:00:00 2001
+From: "Gavin T. Olson" <gavster@gmail.com>
+Date: Sat, 3 Feb 2018 13:42:31 -0500
+Subject: [PATCH 4/4] Added definition of INDI_DATA_DIR to indi-ssag CMakeLists
+
+---
+ indi-ssag/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/indi-ssag/CMakeLists.txt b/indi-ssag/CMakeLists.txt
+index 656dc989..ac64f823 100644
+--- a/indi-ssag/CMakeLists.txt
++++ b/indi-ssag/CMakeLists.txt
+@@ -13,6 +13,7 @@ find_package(USB1 REQUIRED)
+ 
+ set(UDEVRULES_INSTALL_DIR "/lib/udev/rules.d" CACHE STRING "Base directory for udev rules")
+ 
++set(INDI_DATA_DIR "${CMAKE_INSTALL_PREFIX}/share/indi")
+ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/indi_ssag.xml ${CMAKE_CURRENT_BINARY_DIR}/indi_ssag.xml )
+ 
+ include_directories( ${CMAKE_CURRENT_BINARY_DIR})
+-- 
+2.16.0
+

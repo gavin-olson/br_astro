@@ -1,0 +1,8 @@
+# Hashes from: http://download.kde.org/stable/kstars/kstars-2.9.2.tar.xz
+sha256 91ef5bc9d86f1e27a9d1533cec7ac82d111acc7ddb54ee2cffeb8714c294d713 kstars-2.9.2.tar.xz
+sha1   01bbb94cfcc868fa1de007276065cb3f9ea536c1                         kstars-2.9.2.tar.xz
+md5	   d8a4e2dce367395b72905a83bfc6c4fb                                 kstars-2.9.2.tar.xz
+
+# Hash for license files:
+sha256 6ddbf18171550a9fd89863b78b2221d078a576ee100aaf3846a14820b1d34332 LICENSE_OpenNGC
+

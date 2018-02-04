@@ -1,0 +1,6 @@
+source "$BR2_EXTERNAL_BR_ASTRO_PATH/package/cfitsio/Config.in"
+source "$BR2_EXTERNAL_BR_ASTRO_PATH/package/libnova/Config.in"
+source "$BR2_EXTERNAL_BR_ASTRO_PATH/package/libindi/Config.in"
+source "$BR2_EXTERNAL_BR_ASTRO_PATH/package/libindi_3rdparty/Config.in"
+source "$BR2_EXTERNAL_BR_ASTRO_PATH/package/kstars/Config.in"
+
